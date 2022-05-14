@@ -21,7 +21,11 @@ body {
 .box {
   height: 501px;
   width: 323px;
-  margin:  70px auto 0;
+  /*margin:  70px auto 0;*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border-radius: 15px;
   padding: 15px;
   background-color: white;
@@ -60,4 +64,5 @@ p {
   color: var(--paragraph);
   text-align: center;
   font-size: 15px;
+
 }
